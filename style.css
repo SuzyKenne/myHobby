@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #ffff;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+}
+
+#myhobby{
+    background-image: linear-gradient(to top left, #27abc6, #5de83b, #f49a17, #f70b05, #f42172);
+    padding: 40px;
+    margin: 30px auto;
+    width: 50%;
+    color: #fff;
+}
+
+.text{
+    float: right;
+    width: 505;
+}
+
+button{
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 4px;
+        color: #ffff;
+    }
+
+    h2{
+        text-align: center;
+        color: #fff;
+    }
+
+    #myhobby{
+        background-image: linear-gradient(to top left, #27abc6, #5de83b, #f49a17, #f70b05, #f42172);
+        padding: 30px;
+        margin: 30px auto;
+        width: 50%;
+        color: #fff;
+    }
+
+    .text{
+        float: right;
+        width: 505;
+    }
+
+    button{
+        display: block;
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 20px;
+        margin: auto 10px;
+        font-weight: 20px;
+    }
+}
