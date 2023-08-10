@@ -31,6 +31,7 @@ button{
     cursor: pointer;
     border-radius: 5px;
     font-size: 20px;
+}
     h1{
         text-align: center;
         font-size: 30px;
@@ -53,12 +54,6 @@ button{
         width: 50%;
         color: #fff;
     }
-
-    .text{
-        float: right;
-        width: 505;
-    }
-
     button{
         display: block;
         cursor: pointer;
@@ -67,4 +62,7 @@ button{
         margin: auto 10px;
         font-weight: 20px;
     }
-}
+    .image{
+        display: block;
+        text-align: center;
+    }
