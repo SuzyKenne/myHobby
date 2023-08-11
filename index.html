@@ -9,7 +9,7 @@
 <body>
     <section>
         <div id="myhobby">
-           <h1>I Love Coding</h1>
+           <h1><span> I Love Coding </span></h1>
             <hr>
             <h2>Especially in HTML/CSS & JAVASCRIPT.</h2>
             <hr>
@@ -22,20 +22,38 @@
                  It involves writing lines of code using a programming language to tell the computer what tasks to perform.
                  By writing these instructions, or code, programmers can create software applications, websites, mobile apps, and much more.
 
-                 Coding is a creative and logical process that requires problem-solving skills.
-                 Programmers use programming languages like Python, JavaScript, Java, C++, and many others to communicate with computers.
+                 Coding is a creative and logical process that requires problem-solving skills.<br/>
+                 Programmers use programming languages like <em> Python, JavaScript, Java, C++</em>, and many others to communicate with computers.
                  They write algorithms, design data structures, and implement logical operations to build functional and efficient programs.
 
                  Through coding, programmers can create a wide range of applications and solutions that can automate tasks, manipulate data, provide interactive experiences, and solve complex problems.
                  It is a powerful tool that enables individuals to bring their ideas to life in the digital world.
                 </p>
-                <a href="read">read more on wikipedia</a>
+                <a href="https://www.computerscience.org/resources/what-is-coding-used-for/" target="_blank">Read More </a>
             </div>
 
-            <button>tell me about you</button>
+            <button >Tell Me About You</button>
 
             
         </div>
     </section>
+
+    <script>
+
+        function myHobby() {
+        let name = prompt ("what is your name?");
+        let hobby = prompt ("do you love coding?"); 
+
+        if(hobby === "yes") {
+            alert(" Hi "+ name +" ,Happy coding!😄");
+        } else {
+            alert(" Hi "+ name +" ,i will be in touch if you try it!");
+        }
+         };
+         
+         let apply = document.querySelector("button");
+         apply.addEventListener("click", myHobby);
+        
+    </script>
 </body>
 </html>
